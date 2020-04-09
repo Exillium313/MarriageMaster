@@ -68,7 +68,7 @@ permissions:
       marry.home.del: true
   marry.accept:
     description: Allows the player to accept confirmation requests
-    default: true
+    default: false
   marry.list:
     description: Allows you to use the List command
     default: true
@@ -104,7 +104,7 @@ permissions:
     default: true
   marry.chat.format:
     description: Allows formating private messages (except magic)
-    default: true
+    default: false
   marry.chat.magic:
     description: Allows magic format in private messages
     default: false
@@ -125,13 +125,13 @@ permissions:
     default: true
   marry.selfmarry:
     description: Allows to marry an other player without a priest
-    default: true
+    default: false
   marry.selfdivorce:
     description: Allows to divorce from an other player without a priest
-    default: true
+    default: false
   marry.changesurname:
     description: Allows to change the surname when self marry is on.
-    default: true
+    default: false
   marry.bypass.delay:
     description: Allows to skip the delay on tps
     default: op
